@@ -1,17 +1,26 @@
-# Multi-Prompt Reasoning System (Free API Version)
+# Multi-Prompt Reasoning AI Web Application
 
-This version uses Hugging Face Inference API instead of OpenAI.
+##  Description
+This project is an AI-powered web application that uses a multi-prompt reasoning
+pipeline to generate accurate and structured responses. Instead of using a single
+prompt, the system processes user queries through understanding, reasoning, and
+final answer generation stages.
 
-## Steps to Run
+##  Key Features
+- Multi-prompt reasoning pipeline
+- Intent-aware explanation depth (short vs detailed)
+- Prompt engineering for controlled outputs
+- Free LLM API integration
+- Error handling for API failures
 
-1. Create Hugging Face account: https://huggingface.co
-2. Get free token: https://huggingface.co/settings/tokens
-3. Rename `.env.example` to `.env` and add token
+##  Tech Stack
+- Python
+- Streamlit
+- Prompt Engineering
+- Groq API (LLaMA 3.1)
+- Git & GitHub
 
-HF_API_TOKEN=hf_xxxxxxxxx
-
-4. Install dependencies:
+##  How to Run
+```bash
 pip install -r requirements.txt
-
-5. Run app:
 streamlit run app.py
